@@ -3,32 +3,33 @@
 import './Features.css'
 
 const Features = () => {
+
+
+
   return (
     <section className="features">
       <div className="wrapper">
         <div className="features-wrapper">
           <h2 className="features-head">Уникальный заголовок для преимущества компании</h2>
           <div className="features-subhead">О нас</div>
-          <div className="features-description">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
-            сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему
-            оратору отточить.
+          <div className="features-description" >Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить.
           </div>
           <div className="features-slider">
             <div className="features-slider_items">
-              <div className="features-slider_item">
-                {/* <div className="features-img" style="background-image: url(./images/1.svg)"></div> */}
-                <div className="features-feature">Первое целевое преимущество</div>
+              <div className="features-slider_item" >
+                <div className="features-img" style={{ backgroundImage: 'url(./images/1.svg)' }} ></div>
+                <div className="features-feature" >Первое целевое преимущество</div>
               </div>
               <div className="features-slider_item">
-                {/* <div className="features-img" style="background-image: url(./images/2.svg)"></div> */}
+                <div className="features-img" style={{ backgroundImage: 'url(./images/2.svg)' }}></div>
                 <div className="features-feature">Второе целевое преимущество</div>
               </div>
               <div className="features-slider_item">
-                {/* <div className="features-img" style="background-image: url(./images/3.svg)"></div> */}
+                <div className="features-img" style={{ backgroundImage: 'url(./images/3.svg)' }}></div>
                 <div className="features-feature">Третье целевое преимущество</div>
               </div>
               <div className="features-slider_item">
-                {/* <div className="features-img" style="background-image: url(./images/4.svg)"></div> */}
+                <div className="features-img" style={{ backgroundImage: 'url(./images/4.svg)' }}></div>
                 <div className="features-feature">Четвертое целевое преимущество</div>
               </div>
             </div>
@@ -49,7 +50,7 @@ const Features = () => {
           </div>
         </div>
       </div>
-    </section>
+    </section >
   );
 }
 

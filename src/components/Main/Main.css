@@ -62,14 +62,15 @@ main:before {
 }
 
 .main-small {
-  margin: 25px 0 0;
+  margin: 35px 0 0;
   font-weight: 400;
-  line-height: 20px;
-  font-size: 14px;
+  line-height: 31px;
+  font-size: 22px;
   color: rgba(255, 255, 255, 0.75);
+  min-width: 1103px;
 }
 
-.main-btn {
+.btn.main-btn {
   padding: 9px 29px;
   margin: 60px auto 0;
 }

@@ -27,7 +27,7 @@
 
 .features-subhead {
   position: relative;
-  margin: 15px auto 0;
+  margin: 35px auto 0;
   font-weight: 500;
   font-size: 16px;
   text-align: center;
@@ -54,11 +54,13 @@
 }
 
 .features-description {
+  margin: 0 auto;
   margin-top: 25px;
   font-weight: 400;
-  line-height: 17px;
-  font-size: 12px;
+  line-height: 25px;
+  font-size: 18px;
   text-align: center;
+  max-width: 810px;
 }
 
 .features-slider {
